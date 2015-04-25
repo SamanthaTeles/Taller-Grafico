@@ -1,0 +1,92 @@
+.wrapper{
+	height: 50%;
+	width: 100%;
+	margin: auto;
+}
+header{
+	background-color: #333366;
+	height: 100%;
+	width: 100%;
+	margin-top: 0%;
+	border: 0%;
+}
+h1{
+	text-align: center;
+	margin-top:0%;
+	font-size: 3em;
+	color: white;
+	float: center;
+}
+body{
+	background-color: #FFCC33; 
+	font-family: 'Fjalla One', sans-serif;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+	color:  #FFCC33; 
+}
+	a:hover {
+	color: white;
+	
+}
+nav {
+	margin-left: 37%;
+	text-decoration: none;
+	float: center;
+}
+nav li{
+	text-align: center;
+	margin: 0%;
+	margin-top: 0%;
+	font-size: 1.3em;
+	display: inline-block;
+	padding-right: 5%;
+}
+.box{
+	background-color: #F7D18F;
+	height: 610px;
+	width: 1280px;
+	margin: 25px;
+}
+img{
+	height: 40%;
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	margin-bottom: 5%;
+	position: relative;
+}
+img:hover{
+	opacity: .5
+}
+h2 {
+  padding-left: 50%;
+  position: relative;
+  padding-top: 5%;
+  font-size: 2em;
+  }
+.auto{
+	float: right;
+	margin-top: 25%;
+	margin-right: 1%
+}
+.auto img{
+	float: left;
+	margin-left: 5px;
+	height: 30%;
+	width: 30%;
+}
+p {
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  padding-right: 7%;
+  padding-left: 54%;
+  padding-top: 2%;
+}
+@media screen and (max-width: 800px) {
+	
+	nav{
+		display: none;
+	}
+}

@@ -58,6 +58,7 @@ aside li
 section {
 	position: absolute;
     left:30%;
+    width: 750px;
 	margin-bottom: 20%;
 }
 
@@ -77,4 +78,26 @@ footer {
 	footer{
 		display: none;
 	}
+	aside 
+	{
+		width:100%;
+		float:none;
+	}
+	section
+	{
+		width:100%;
+		float:center;
+		margin: auto;
+	}
+	header
+	{
+		width: 100%;
+		display: inline-block;
+		height: 100p%;
+	}
+	nav ul li 
+	{
+		display: none;
+	}
+
 } 
